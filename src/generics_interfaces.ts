@@ -25,7 +25,7 @@ class ProductRepository implements ProductRepositoryInterface {
     }
     findAll(): Product[] {
         return [
-        new Product
+            new Product
         ]
     }
     destroy(id: string): Product {
@@ -43,7 +43,7 @@ class UserRepository implements UserRepositoryInterface {
 
     findAll(): User[] {
         return [
-        new User
+            new User
         ]
     }
 
